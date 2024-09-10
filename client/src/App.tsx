@@ -16,11 +16,11 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/About" Component={About} />
-        <Route path="/Dashboard" Component={Dashboard} />
-        <Route path="/SignIn" Component={SignIn} />
-        <Route path="/SignUp" Component={SignUp} />
-        <Route path="/Projects" Component={Projects} />
+        <Route path="/about" Component={About} />
+        <Route path="/dashboard" Component={Dashboard} />
+        <Route path="/sign-in" Component={SignIn} />
+        <Route path="/sign-up" Component={SignUp} />
+        <Route path="/projects" Component={Projects} />
       </Routes>
     </div>
   );
